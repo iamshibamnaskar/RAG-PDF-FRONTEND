@@ -156,14 +156,7 @@ export default function DocsPage() {
               Upload PDF
             </button>
 
-            <button
-              onClick={() => {
-                alert('This demo only provides document grid.');
-              }}
-              className="hidden md:inline-flex items-center gap-2 rounded-md bg-white border px-3 py-2 text-sm text-gray-700 hover:bg-gray-50 focus:outline-none"
-            >
-              Grid
-            </button>
+            
           </div>
         </div>
       </header>
